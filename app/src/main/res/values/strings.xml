@@ -2,6 +2,12 @@
     <string name="app_name">Tema 2</string>
     <string name="guardar">GUARDAR</string>
     <string name="hola">HOLA</string>
-    <string name="editText">Edit Text</string>
     <string name="borrar">BORRAR</string>
+    <string name="editText1">Edit Text 1</string>
+    <string name="editText2">Edit Text 2</string>
+    <string name="editText3">Edit Text 3</string>
+    <string name="editText4">Edit Text 4</string>
+    <string name="editText5">Edit Text 5</string>
+    <string name="editText6">Edit Text 6</string>
+    <string name="editText7">Edit Text 7</string>
 </resources>

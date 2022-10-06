@@ -30,7 +30,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText1">
         </EditText>
     </LinearLayout>
 
@@ -59,7 +59,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText2">
         </EditText>
     </LinearLayout>
 
@@ -88,7 +88,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText3">
         </EditText>
     </LinearLayout>
 
@@ -117,7 +117,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText4">
         </EditText>
     </LinearLayout>
 
@@ -146,7 +146,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText5">
         </EditText>
     </LinearLayout>
 
@@ -175,7 +175,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText6">
         </EditText>
     </LinearLayout>
 
@@ -204,7 +204,7 @@
             android:layout_gravity="center"
             android:inputType="text"
             android:autofillHints="name"
-            android:text="@string/editText">
+            android:text="@string/editText7">
         </EditText>
     </LinearLayout>
 
@@ -216,7 +216,7 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonGuardar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

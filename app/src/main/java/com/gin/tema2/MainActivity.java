@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,5 +37,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button saveButton = (Button) findViewById(R.id.buttonGuardar);
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView1.setText(((EditText) findViewById(R.id.editView1)).getText());
+                textView2.setText(((EditText) findViewById(R.id.editView2)).getText());
+                textView3.setText(((EditText) findViewById(R.id.editView3)).getText());
+                textView4.setText(((EditText) findViewById(R.id.editView4)).getText());
+                textView5.setText(((EditText) findViewById(R.id.editView5)).getText());
+                textView6.setText(((EditText) findViewById(R.id.editView6)).getText());
+                textView7.setText(((EditText) findViewById(R.id.editView7)).getText());
+            }
+        });
     }
 }
