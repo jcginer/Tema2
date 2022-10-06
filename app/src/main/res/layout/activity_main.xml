@@ -6,7 +6,7 @@
     android:gravity="center">
 
     <LinearLayout
-        android:id="@+id/formLayout"
+        android:id="@+id/formLayout1"
         android:orientation="horizontal"
         android:layout_height="0dp"
         android:layout_width="match_parent"
@@ -24,6 +24,180 @@
 
         <EditText
             android:id="@+id/editView1"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout2"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView2"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout3"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView3"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout4"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView4"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout5"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView5"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout6"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView6"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:text="@string/editText">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formLayout7"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/hola" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editView7"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
