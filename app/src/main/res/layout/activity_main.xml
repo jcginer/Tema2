@@ -56,7 +56,8 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/boton2"/>
+            android:text="@string/borrar"
+            android:backgroundTint="@color/red"/>
     </LinearLayout>
 
 </LinearLayout>
