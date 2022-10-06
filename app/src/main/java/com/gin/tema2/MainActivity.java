@@ -3,6 +3,9 @@ package com.gin.tema2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +13,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView textView1 = (TextView) findViewById(R.id.textView1);
+        TextView textView2 = (TextView) findViewById(R.id.textView2);
+        TextView textView3 = (TextView) findViewById(R.id.textView3);
+        TextView textView4 = (TextView) findViewById(R.id.textView4);
+        TextView textView5 = (TextView) findViewById(R.id.textView5);
+        TextView textView6 = (TextView) findViewById(R.id.textView6);
+        TextView textView7 = (TextView) findViewById(R.id.textView7);
+
+        Button deleteButton = (Button) findViewById(R.id.buttonBorrar);
+        deleteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView1.setText("");
+                textView2.setText("");
+                textView3.setText("");
+                textView4.setText("");
+                textView5.setText("");
+                textView6.setText("");
+                textView7.setText("");
+            }
+        });
+
     }
 }
